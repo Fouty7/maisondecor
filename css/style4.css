@@ -20,8 +20,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
 }
-
 
 .helplink {
   display: flex;
@@ -42,18 +43,16 @@
   .help-content {
     height: 1000px;
   }
-  .blank-section{
+  .blank-section {
     margin-bottom: 50%;
   }
-  
-}  
+}
 
 @media (max-width: 768px) {
   .help-content {
     height: 500px;
   }
-  .blank-section{
+  .blank-section {
     margin-bottom: 0;
   }
-  
-}  
+}
