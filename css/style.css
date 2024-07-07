@@ -152,6 +152,10 @@ footer {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 32px;
+  }
+
   nav ul {
     display: none;
   }
