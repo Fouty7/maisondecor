@@ -37,7 +37,7 @@ header {
 }
 
 .logo img {
-  max-width: 300px; /* Set a maximum width for the logo */
+  max-width: 200px; /* Set a maximum width for the logo */
   padding-left: 32px;
   padding-right: 32px;
 }
