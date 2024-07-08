@@ -33,13 +33,11 @@ header {
   display: flex;
   justify-content: space-between; /* Distribute items evenly */
   align-items: center; /* Center vertically */
-  gap: 60px;
+  gap: 0px;
 }
 
 .logo img {
-  max-width: 200px; /* Set a maximum width for the logo */
-  padding-left: 32px;
-  padding-right: 32px;
+  max-width: 256px; /* Set a maximum width for the logo */
 }
 
 nav ul {
@@ -787,3 +785,16 @@ footer {
 }
 
 /* services section */
+
+.pyramid-text {
+  text-align: center;
+  margin: 20px;
+}
+.side-menu #close-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
