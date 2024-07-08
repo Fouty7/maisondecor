@@ -431,10 +431,12 @@ footer {
 .story-line-2 {
   margin-top: 56px;
   align-self: center;
-  border-bottom: 2px solid #333;
 }
 
 @media (max-width: 768px) {
+  .luxury-content {
+    display: block;
+  }
   .grey-bg {
     width: 0;
   }
@@ -483,6 +485,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #000000;
+  border-top: 2px solid black;
   padding: 20px;
 }
 
@@ -607,12 +610,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  margin-left: 40px;
 }
 
 .footer-bottom a {
   text-decoration: none;
-  color: #000000;
+  color: #cfbbbb;
   font-size: 14px;
   letter-spacing: 3.84px;
 }
@@ -634,7 +636,7 @@ footer {
 .footer-border {
   margin-top: 2px;
   height: 2px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(192, 186, 186, 0.5);
   margin-left: 60px;
   margin-right: 3%;
 }
