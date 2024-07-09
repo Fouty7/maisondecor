@@ -211,6 +211,12 @@ footer {
   gap: 40px;
 }
 
+@media screen and (max-width: 768px) {
+  .about-content {
+    gap: 20px;
+  }
+}
+
 /* about us section paragraph */
 #about-us p,
 .services-text p {
@@ -789,7 +795,6 @@ footer {
 
 .pyramid-text {
   text-align: center;
-  margin: 20px;
 }
 .side-menu #close-menu {
   position: absolute;
