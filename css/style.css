@@ -150,6 +150,23 @@ footer {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+  .collection-content {
+    padding: 20px;
+    gap: 6px;
+  }
+  .banner-content h1 {
+    text-align: left;
+  }
+
+  #banner {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .banner-content {
+    display: block;
+    align-items: flex-start;
+  }
   .banner-content h1 {
     font-size: 32px;
   }
@@ -207,13 +224,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
   .about-content {
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: left;
+    align-items: left !important;
   }
 }
 
@@ -440,6 +461,37 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .services-text {
+    align-items: left;
+  }
+  .services-text h2 {
+    text-align: left;
+  }
+  .services-text p {
+    text-align: left;
+  }
+  #new-collection h2 {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  #new-collection {
+    text-align: left;
+  }
+  #new-collection p {
+    text-align: left;
+    margin-top: 0;
+  }
+  .story-line-1 {
+    margin: 0;
+    border: none;
+  }
+  #about-us h2 {
+    text-align: left;
+  }
+
+  #about-us p {
+    text-align: left;
+  }
   .luxury-content {
     display: block;
   }
@@ -458,7 +510,7 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .collection-items {
-    flex-direction: column;
+    padding: 6px;
     align-items: center;
   }
 
@@ -648,7 +700,7 @@ footer {
 }
 @media (max-width: 768px) {
   .footer-content {
-    display: block;
+    display: flex;
     max-width: fit-content;
   }
   .footer-left img {
