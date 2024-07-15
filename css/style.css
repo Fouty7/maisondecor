@@ -156,6 +156,18 @@ footer {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: center; /* Distribute items evenly */
+    align-items: center; /* Center vertically */
+    gap: 0px;
+    flex: 1;
+  }
+  .wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
   .collection-content {
     gap: 6px;
     padding-left: 20px;
@@ -186,7 +198,6 @@ footer {
   }
   .hamburger-icon {
     display: block;
-    margin-right: 15px;
   }
   .menu.show-menu {
     display: list-item;
@@ -205,7 +216,6 @@ footer {
 
 @media (min-width: 768px) {
   .hamburger-icon {
-    justify-content: right;
     display: none;
     cursor: pointer;
   }
