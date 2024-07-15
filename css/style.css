@@ -170,8 +170,8 @@ footer {
   }
   .collection-content {
     gap: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    padding: 20px;
   }
 
   /* mobile view of banner section */
@@ -488,6 +488,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  #new-collection a {
+    padding: 2px;
+  }
   .story-line-2 {
     display: none;
   }
@@ -543,8 +546,11 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .collection-items {
-    padding: 6px;
+    display: flex;
+    gap: 4px;
+    padding: 0;
     align-items: center;
+    margin-top: 0;
   }
 
   .item {
