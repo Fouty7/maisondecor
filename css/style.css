@@ -571,6 +571,7 @@ footer {
 
   .grey-bg {
     background-image: none;
+    display: none;
   }
 
   .story-line-1 {
